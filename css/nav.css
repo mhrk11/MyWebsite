@@ -1,0 +1,48 @@
+@font-face{
+	font-family: Lemon;
+	src: url(../font/LemonMilk.otf);
+}
+@font-face{
+	font-family: LemonLight;
+	src: url(../font/LemonMilklight.otf);
+}
+nav{
+	position: fixed;
+	top: 60px;
+	right: 150px;
+	margin-left: auto;
+
+
+}
+nav ul li{
+	display: inline;
+	padding: 25px;
+	font-family: LemonLight;
+	font-size: 25px;
+
+
+}
+
+nav ul li a:link, nav ul li a:visited{
+	text-decoration: none;
+	color: black;
+
+	
+}
+nav ul li a:hover{
+	background: #7b7c7b;
+	color: white;
+	border-radius: 5px;
+
+}
+nav ul li a:active{
+	background: #366039;
+
+}
+
+
+
+
+
+
+
